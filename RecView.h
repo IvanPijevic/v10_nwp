@@ -42,8 +42,9 @@ public:
 	virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
 	virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);
 	virtual void OnEndPrinting(CDC* pDC, CPrintInfo* pInfo);
+	virtual void OnPrint(CDC* pDC, CPrintInfo* pInfo);
 	//}}AFX_VIRTUAL
-
+	
 // Implementation
 public:
 	virtual ~RecView();
